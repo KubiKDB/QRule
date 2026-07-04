@@ -1,0 +1,33 @@
+name: QRule
+options:
+  bundleIdPrefix: com.danielbond
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+
+packages:
+  KeyboardShortcuts:
+    url: https://github.com/sindresorhus/KeyboardShortcuts
+    from: 2.0.0
+
+targets:
+  QRule:
+    type: application
+    platform: macOS
+    sources:
+      - QRule
+    dependencies:
+      - package: KeyboardShortcuts
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.danielbond.QRule
+        INFOPLIST_FILE: QRule/Support/Info.plist
+        CODE_SIGN_ENTITLEMENTS: QRule/Support/QRule.entitlements
+        SWIFT_VERSION: "5.0"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGN_IDENTITY: "Apple Development"
+        DEVELOPMENT_TEAM: WJ8R7FHAJ8
+        ENABLE_HARDENED_RUNTIME: NO
+        COMBINE_HIDPI_IMAGES: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

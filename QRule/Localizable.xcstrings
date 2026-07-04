@@ -1,0 +1,108 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Scan QR Code" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Сканувати QR-код" } }
+      }
+    },
+    "Settings…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Параметри…" } }
+      }
+    },
+    "Launch at Login" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Запускати під час входу" } }
+      }
+    },
+    "About QRule" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Про QRule" } }
+      }
+    },
+    "Quit QRule" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Завершити QRule" } }
+      }
+    },
+    "Scan shortcut:" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Скорочення для сканування:" } }
+      }
+    },
+    "Press the shortcut, then drag a box around any QR code on your screen." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Натисніть скорочення, а потім обведіть рамкою будь-який QR-код на екрані." } }
+      }
+    },
+    "Open" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Відкрити" } }
+      }
+    },
+    "Copy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Скопіювати" } }
+      }
+    },
+    "Copied" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Скопійовано" } }
+      }
+    },
+    "Share" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Поділитися" } }
+      }
+    },
+    "Close" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Закрити" } }
+      }
+    },
+    "No QR code found" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "QR-код не знайдено" } }
+      }
+    },
+    "QRule Needs Screen Recording Access" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "QRule потребує доступу до запису екрана" } }
+      }
+    },
+    "To read QR codes on your screen, QRule takes a single screenshot when you press the shortcut. Nothing is ever saved or sent anywhere — everything stays on your Mac.\n\nEnable QRule under Screen Recording in System Settings, then relaunch the app." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Щоб зчитувати QR-коди на екрані, QRule робить один знімок екрана, коли ви натискаєте скорочення. Нічого не зберігається й нікуди не надсилається — усе залишається на вашому Mac.\n\nУвімкніть QRule у розділі «Запис екрана» в Системних параметрах, а потім перезапустіть програму." } }
+      }
+    },
+    "Not Now" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Не зараз" } }
+      }
+    },
+    "Open System Settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : { "stringUnit" : { "state" : "translated", "value" : "Відкрити Системні параметри" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

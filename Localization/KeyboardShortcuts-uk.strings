@@ -1,0 +1,12 @@
+/* Ukrainian localization for the KeyboardShortcuts package's recorder UI.
+   Injected into KeyboardShortcuts_KeyboardShortcuts.bundle by build.sh. */
+
+"force_use_shortcut" = "Все одно використати";
+"keyboard_shortcut_disallowed" = "Модифікатор Option потрібно поєднувати з Command або Control.";
+"keyboard_shortcut_used_by_menu_item" = "Це клавіатурне скорочення не можна використати, оскільки воно вже призначене пункту меню «%@».";
+"keyboard_shortcut_used_by_system" = "Це клавіатурне скорочення не можна використати, оскільки воно вже є системним.";
+"keyboard_shortcuts_can_be_changed" = "Більшість системних клавіатурних скорочень можна змінити в «Системні параметри › Клавіатура › Клавіатурні скорочення».";
+"ok" = "OK";
+"press_shortcut" = "Натисніть скорочення";
+"record_shortcut" = "Записати скорочення";
+"space_key" = "Пробіл";
