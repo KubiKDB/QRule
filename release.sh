@@ -57,7 +57,10 @@ if [[ -d "$KS_RES" ]]; then
     rm -rf "$KS_RES/ru.lproj"
     mkdir -p "$KS_RES/uk.lproj"
     cp "$PROJECT_DIR/Localization/KeyboardShortcuts-uk.strings" "$KS_RES/uk.lproj/Localizable.strings"
-    codesign --force --sign "Apple Development" \
+    # The nested bundle must carry the distribution cert: exportArchive
+    # re-signs the app itself but leaves nested resource bundles untouched
+    # (ITMS-90284 otherwise).
+    codesign --force --sign "Apple Distribution" \
         "$APP/Contents/Resources/KeyboardShortcuts_KeyboardShortcuts.bundle"
     codesign --force --sign "Apple Development" \
         --entitlements "$PROJECT_DIR/QRule/Support/QRule.entitlements" \
